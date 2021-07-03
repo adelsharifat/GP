@@ -99,14 +99,6 @@ D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\es\DevExpress.X
 D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\ja\DevExpress.XtraTreeList.v18.2.resources.dll
 D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\ru\DevExpress.XtraTreeList.v18.2.resources.dll
 D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\obj\Debug\CMIS.UI.csprojAssemblyReference.cache
-D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\obj\Debug\CMIS.UI.JR.Main.MainForm.resources
-D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\obj\Debug\CMIS.UI.JR.Other.CreateReport.resources
-D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\obj\Debug\CMIS.UI.JR.Other.HomeForm.resources
-D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\obj\Debug\CMIS.UI.JR.Other.InboxForm.resources
-D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\obj\Debug\CMIS.UI.JR.Other.SelectNextSignRoleUsersForm.resources
-D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\obj\Debug\CMIS.UI.JR.Other.ListForm.resources
-D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\obj\Debug\CMIS.UI.JR.Other.SentListForm.resources
-D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\obj\Debug\CMIS.UI.JR.Other.SignHistoryForm.resources
 D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\obj\Debug\CMIS.UI.Properties.Resources.resources
 D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\obj\Debug\CMIS.UI.csproj.GenerateResource.cache
 D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\obj\Debug\CMIS.UI.exe.licenses
@@ -114,3 +106,11 @@ D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\obj\Debug\CMIS.UI.csproj.
 D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\obj\Debug\CMIS.UI.csproj.CopyComplete
 D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\obj\Debug\CMIS.UI.exe
 D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\obj\Debug\CMIS.UI.pdb
+D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\obj\Debug\CMIS.UI.JobReport.Main.MainForm.resources
+D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\obj\Debug\CMIS.UI.JobReport.Other.CreateReport.resources
+D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\obj\Debug\CMIS.UI.JobReport.Other.HomeForm.resources
+D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\obj\Debug\CMIS.UI.JobReport.Other.InboxForm.resources
+D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\obj\Debug\CMIS.UI.JobReport.Other.SelectNextSignRoleUsersForm.resources
+D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\obj\Debug\CMIS.UI.JobReport.Other.ListForm.resources
+D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\obj\Debug\CMIS.UI.JobReport.Other.SentListForm.resources
+D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\obj\Debug\CMIS.UI.JobReport.Other.SignHistoryForm.resources

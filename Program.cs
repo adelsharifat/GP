@@ -16,7 +16,7 @@ namespace CMIS.UI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new JR.Main.MainForm());
+            Application.Run(new JobReport.Main.MainForm());
         }
     }
 }

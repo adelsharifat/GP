@@ -76,80 +76,80 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="JR\Infrastructure\Const\JRConst.cs" />
-    <Compile Include="JR\Infrastructure\ViewModel\JobReportViewModel.cs" />
-    <Compile Include="JR\Main\MainForm.cs">
+    <Compile Include="JobReport\Infrastructure\Const\JRConst.cs" />
+    <Compile Include="JobReport\Infrastructure\ViewModel\JobReportViewModel.cs" />
+    <Compile Include="JobReport\Main\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JR\Main\MainForm.Designer.cs">
+    <Compile Include="JobReport\Main\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="JR\Other\CreateReport.cs">
+    <Compile Include="JobReport\Other\CreateReport.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JR\Other\CreateReport.Designer.cs">
+    <Compile Include="JobReport\Other\CreateReport.Designer.cs">
       <DependentUpon>CreateReport.cs</DependentUpon>
     </Compile>
-    <Compile Include="JR\Other\HomeForm.cs">
+    <Compile Include="JobReport\Other\HomeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JR\Other\HomeForm.Designer.cs">
+    <Compile Include="JobReport\Other\HomeForm.Designer.cs">
       <DependentUpon>HomeForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="JR\Other\InboxForm.cs">
+    <Compile Include="JobReport\Other\InboxForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JR\Other\InboxForm.Designer.cs">
+    <Compile Include="JobReport\Other\InboxForm.Designer.cs">
       <DependentUpon>InboxForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="JR\Other\SelectNextSignRoleUsersForm.cs">
+    <Compile Include="JobReport\Other\SelectNextSignRoleUsersForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JR\Other\SelectNextSignRoleUsersForm.Designer.cs">
+    <Compile Include="JobReport\Other\SelectNextSignRoleUsersForm.Designer.cs">
       <DependentUpon>SelectNextSignRoleUsersForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="JR\Other\ListForm.cs">
+    <Compile Include="JobReport\Other\ListForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JR\Other\ListForm.Designer.cs">
+    <Compile Include="JobReport\Other\ListForm.Designer.cs">
       <DependentUpon>ListForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="JR\Other\SentListForm.cs">
+    <Compile Include="JobReport\Other\SentListForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JR\Other\SentListForm.Designer.cs">
+    <Compile Include="JobReport\Other\SentListForm.Designer.cs">
       <DependentUpon>SentListForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="JR\Other\SignHistoryForm.cs">
+    <Compile Include="JobReport\Other\SignHistoryForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JR\Other\SignHistoryForm.Designer.cs">
+    <Compile Include="JobReport\Other\SignHistoryForm.Designer.cs">
       <DependentUpon>SignHistoryForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="JR\Main\MainForm.resx">
+    <EmbeddedResource Include="JobReport\Main\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="JR\Other\CreateReport.resx">
+    <EmbeddedResource Include="JobReport\Other\CreateReport.resx">
       <DependentUpon>CreateReport.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="JR\Other\HomeForm.resx">
+    <EmbeddedResource Include="JobReport\Other\HomeForm.resx">
       <DependentUpon>HomeForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="JR\Other\InboxForm.resx">
+    <EmbeddedResource Include="JobReport\Other\InboxForm.resx">
       <DependentUpon>InboxForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="JR\Other\SelectNextSignRoleUsersForm.resx">
+    <EmbeddedResource Include="JobReport\Other\SelectNextSignRoleUsersForm.resx">
       <DependentUpon>SelectNextSignRoleUsersForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="JR\Other\ListForm.resx">
+    <EmbeddedResource Include="JobReport\Other\ListForm.resx">
       <DependentUpon>ListForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="JR\Other\SentListForm.resx">
+    <EmbeddedResource Include="JobReport\Other\SentListForm.resx">
       <DependentUpon>SentListForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="JR\Other\SignHistoryForm.resx">
+    <EmbeddedResource Include="JobReport\Other\SignHistoryForm.resx">
       <DependentUpon>SignHistoryForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
@@ -187,9 +187,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="JR\Infrastructure\Enum\" />
-    <Folder Include="JR\Infrastructure\Helper\" />
-    <Folder Include="JR\Infrastructure\Model\" />
+    <Folder Include="JobReport\Infrastructure\Enum\" />
+    <Folder Include="JobReport\Infrastructure\Helper\" />
+    <Folder Include="JobReport\Infrastructure\Model\" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
