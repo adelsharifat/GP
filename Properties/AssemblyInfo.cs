@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TicketCenter")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("CMIS.UI")]
+[assembly: AssemblyDescription("CMIS Software")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TicketCenter")]
+[assembly: AssemblyCompany("ODCC")]
+[assembly: AssemblyProduct("CMIS.UI")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

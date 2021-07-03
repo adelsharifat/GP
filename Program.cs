@@ -1,5 +1,4 @@
-﻿using CMIS.UI.TK.Main;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -17,7 +16,7 @@ namespace CMIS.UI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TK.Main.MainForm());
+            Application.Run(new JR.Main.MainForm());
         }
     }
 }
