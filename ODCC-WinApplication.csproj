@@ -6,12 +6,13 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{B10080C9-C290-48D9-AFD9-8727E21C4CDF}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CMIS.UI</RootNamespace>
-    <AssemblyName>CMIS.UI</AssemblyName>
+    <RootNamespace>ODCC_WinApplication</RootNamespace>
+    <AssemblyName>ODCC_WinApplication</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -24,7 +25,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -76,6 +76,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="JobReport\Bundle.cs" />
     <Compile Include="JobReport\Infrastructure\Const\JRConst.cs" />
     <Compile Include="JobReport\Infrastructure\ViewModel\JobReportViewModel.cs" />
     <Compile Include="JobReport\Main\MainForm.cs">
@@ -179,7 +180,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CMIS.DataEngin\CMIS.DataEngin.csproj">
       <Project>{fd063e91-60e7-486d-9591-ed748c1fdf99}</Project>
-      <Name>CMIS.DataAccessLayer</Name>
+      <Name>CMIS.DataEngin</Name>
     </ProjectReference>
     <ProjectReference Include="..\CMIS.UIEngin\CMIS.UIEngin.csproj">
       <Project>{db2d15f6-e630-4819-8084-741da62ac822}</Project>
@@ -188,6 +189,10 @@
     <ProjectReference Include="..\CMIS.Utilities\CMIS.Utilities.csproj">
       <Project>{9b1eeee7-6678-44d9-97d8-1e56c0aa3d6e}</Project>
       <Name>CMIS.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CommonClass\CommonClass.csproj">
+      <Project>{683e2c33-09a5-4614-ada0-ecb7430fdf0c}</Project>
+      <Name>CommonClass</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
