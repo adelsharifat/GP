@@ -14,9 +14,6 @@ D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\obj\Debug\ODCC-WinApplica
 D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\ODCC_WinApplication.exe.config
 D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\ODCC_WinApplication.exe
 D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\ODCC_WinApplication.pdb
-D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\CMIS.DataEngin.dll
-D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\CMIS.UIEngin.dll
-D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\CMIS.Utilities.dll
 D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\DevExpress.Data.v18.2.dll
 D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\DevExpress.Images.v18.2.dll
 D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\DevExpress.Office.v18.2.Core.dll
@@ -34,9 +31,6 @@ D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\Connection.dll
 D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\DevExpress.Sparkline.v18.2.Core.dll
 D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\DevExpress.XtraLayout.v18.2.dll
 D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\DevExpress.XtraTreeList.v18.2.dll
-D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\CMIS.DataEngin.pdb
-D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\CMIS.UIEngin.pdb
-D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\CMIS.Utilities.pdb
 D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\DevExpress.Data.v18.2.xml
 D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\DevExpress.Office.v18.2.Core.xml
 D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\DevExpress.Pdf.v18.2.Core.xml
@@ -118,3 +112,9 @@ D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\obj\Debug\ODCC_WinApplica
 D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\obj\Debug\ODCC_WinApplication.pdb
 D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\CommonClass.dll
 D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\CommonClass.pdb
+D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\CMISDataEngin.dll
+D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\CMISUIEngin.dll
+D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\CMISUtilities.dll
+D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\CMISDataEngin.pdb
+D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\CMISUIEngin.pdb
+D:\Projects\CsProjects\cmisdump\CMISPWINAPP\CMIS.WinUI\bin\Debug\CMISUtilities.pdb

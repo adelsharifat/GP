@@ -178,17 +178,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CMIS.DataEngin\CMIS.DataEngin.csproj">
+    <ProjectReference Include="..\CMIS.DataEngin\CMISDataEngin.csproj">
       <Project>{fd063e91-60e7-486d-9591-ed748c1fdf99}</Project>
-      <Name>CMIS.DataEngin</Name>
+      <Name>CMISDataEngin</Name>
     </ProjectReference>
-    <ProjectReference Include="..\CMIS.UIEngin\CMIS.UIEngin.csproj">
+    <ProjectReference Include="..\CMIS.UIEngin\CMISUIEngin.csproj">
       <Project>{db2d15f6-e630-4819-8084-741da62ac822}</Project>
-      <Name>CMIS.UIEngin</Name>
+      <Name>CMISUIEngin</Name>
     </ProjectReference>
-    <ProjectReference Include="..\CMIS.Utilities\CMIS.Utilities.csproj">
+    <ProjectReference Include="..\CMIS.Utilities\CMISUtility.csproj">
       <Project>{9b1eeee7-6678-44d9-97d8-1e56c0aa3d6e}</Project>
-      <Name>CMIS.Utilities</Name>
+      <Name>CMISUtility</Name>
     </ProjectReference>
     <ProjectReference Include="..\CommonClass\CommonClass.csproj">
       <Project>{683e2c33-09a5-4614-ada0-ecb7430fdf0c}</Project>
