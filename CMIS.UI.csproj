@@ -114,11 +114,11 @@
     <Compile Include="JobReport\Other\ListForm.Designer.cs">
       <DependentUpon>ListForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="JobReport\Other\SentListForm.cs">
+    <Compile Include="JobReport\Other\ArchiveListForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="JobReport\Other\SentListForm.Designer.cs">
-      <DependentUpon>SentListForm.cs</DependentUpon>
+    <Compile Include="JobReport\Other\ArchiveListForm.Designer.cs">
+      <DependentUpon>ArchiveListForm.cs</DependentUpon>
     </Compile>
     <Compile Include="JobReport\Other\SignHistoryForm.cs">
       <SubType>Form</SubType>
@@ -146,8 +146,8 @@
     <EmbeddedResource Include="JobReport\Other\ListForm.resx">
       <DependentUpon>ListForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="JobReport\Other\SentListForm.resx">
-      <DependentUpon>SentListForm.cs</DependentUpon>
+    <EmbeddedResource Include="JobReport\Other\ArchiveListForm.resx">
+      <DependentUpon>ArchiveListForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="JobReport\Other\SignHistoryForm.resx">
       <DependentUpon>SignHistoryForm.cs</DependentUpon>
@@ -184,6 +184,10 @@
     <ProjectReference Include="..\CMIS.UIEngin\CMIS.UIEngin.csproj">
       <Project>{db2d15f6-e630-4819-8084-741da62ac822}</Project>
       <Name>CMIS.UIEngin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CMIS.Utilities\CMIS.Utilities.csproj">
+      <Project>{9b1eeee7-6678-44d9-97d8-1e56c0aa3d6e}</Project>
+      <Name>CMIS.Utilities</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
