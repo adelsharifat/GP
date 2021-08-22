@@ -76,8 +76,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CMISAclManager\Bundle.cs" />
+    <Compile Include="CMISAclManager\Infrastructure\Const\AppConst.cs" />
+    <Compile Include="CMISAclManager\Infrastructure\DAL\CMISACLDAL.cs" />
+    <Compile Include="CMISAclManager\Infrastructure\Model\AclModel.cs" />
+    <Compile Include="CMISAclManager\Infrastructure\Model\AclGridDataModel.cs" />
+    <Compile Include="CMISAclManager\Infrastructure\ViewModel\ACLDBTableType.cs" />
+    <Compile Include="CMISAclManager\Infrastructure\ViewModel\ACLDBValueTableType.cs" />
+    <Compile Include="CMISAclManager\Infrastructure\ViewModel\DBUserACLViewModel.cs" />
+    <Compile Include="CMISAclManager\Main\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISAclManager\Main\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISAclManager\Other\AclForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISAclManager\Other\AclForm.Designer.cs">
+      <DependentUpon>AclForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISAclManager\Other\GroupPermissionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISAclManager\Other\GroupPermissionForm.Designer.cs">
+      <DependentUpon>GroupPermissionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISAclManager\Other\HomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISAclManager\Other\HomeForm.Designer.cs">
+      <DependentUpon>HomeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISAclManager\Other\UserPermissionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISAclManager\Other\UserPermissionForm.Designer.cs">
+      <DependentUpon>UserPermissionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISCommonAcls\NotifyACL.cs" />
+    <Compile Include="CMISDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CMISDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="JobReport\Bundle.cs" />
     <Compile Include="JobReport\Infrastructure\Const\JRConst.cs" />
+    <Compile Include="JobReport\Infrastructure\Contract\CMISACL.cs" />
     <Compile Include="JobReport\Infrastructure\ViewModel\JobReportViewModel.cs" />
     <Compile Include="JobReport\Main\MainForm.cs">
       <SubType>Form</SubType>
@@ -129,6 +174,21 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CMISAclManager\Main\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISAclManager\Other\AclForm.resx">
+      <DependentUpon>AclForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISAclManager\Other\GroupPermissionForm.resx">
+      <DependentUpon>GroupPermissionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISAclManager\Other\HomeForm.resx">
+      <DependentUpon>HomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISAclManager\Other\UserPermissionForm.resx">
+      <DependentUpon>UserPermissionForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="JobReport\Main\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -164,6 +224,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="CMISDataSet.xsc">
+      <DependentUpon>CMISDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CMISDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CMISDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CMISDataSet.xss">
+      <DependentUpon>CMISDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -182,6 +253,11 @@
       <Project>{fd063e91-60e7-486d-9591-ed748c1fdf99}</Project>
       <Name>CMISDataEngin</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CMIS.Notify\CMISNotify.csproj">
+      <Project>{1bb19eb6-352c-4b27-82f2-a16979912936}</Project>
+      <Name>CMISNotify</Name>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </ProjectReference>
     <ProjectReference Include="..\CMIS.UIEngin\CMISUIEngin.csproj">
       <Project>{db2d15f6-e630-4819-8084-741da62ac822}</Project>
       <Name>CMISUIEngin</Name>
@@ -190,12 +266,19 @@
       <Project>{9b1eeee7-6678-44d9-97d8-1e56c0aa3d6e}</Project>
       <Name>CMISUtility</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CMISSecurity\CMISSecurity.csproj">
+      <Project>{60fecbb9-5c03-41bd-bf13-72595b4139a0}</Project>
+      <Name>CMISSecurity</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CommonClass\CommonClass.csproj">
       <Project>{683e2c33-09a5-4614-ada0-ecb7430fdf0c}</Project>
       <Name>CommonClass</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="CMISAclManager\Infrastructure\Contract\" />
+    <Folder Include="CMISAclManager\Infrastructure\Enum\" />
+    <Folder Include="CMISAclManager\Infrastructure\Helper\" />
     <Folder Include="JobReport\Infrastructure\Enum\" />
     <Folder Include="JobReport\Infrastructure\Helper\" />
     <Folder Include="JobReport\Infrastructure\Model\" />
@@ -211,6 +294,12 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bopermission_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expandcollapse_32x32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

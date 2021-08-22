@@ -22,5 +22,15 @@ namespace ODCC_WinApplication.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=CMIS;Integrated Security=True")]
+        public string CMISConnectionString {
+            get {
+                return ((string)(this["CMISConnectionString"]));
+            }
+        }
     }
 }
