@@ -5,7 +5,7 @@
     <property name="ShowAutoFilterRow">true</property>
   </property>
   <property name="ActiveFilterEnabled">true</property>
-  <property name="Columns" iskey="true" value="18">
+  <property name="Columns" iskey="true" value="19">
     <property name="Item1" isnull="true" iskey="true">
       <property name="Name">colId</property>
       <property name="Width">75</property>
@@ -61,13 +61,13 @@
       <property name="MaxWidth">0</property>
     </property>
     <property name="Item9" isnull="true" iskey="true">
-      <property name="Name">colNextSignRole</property>
+      <property name="Name">colDocumentOwnersRole</property>
       <property name="Width">75</property>
       <property name="MinWidth">20</property>
       <property name="MaxWidth">0</property>
     </property>
     <property name="Item10" isnull="true" iskey="true">
-      <property name="Name">colNextRole</property>
+      <property name="Name">colDocumentOwnersRoleName</property>
       <property name="VisibleIndex">3</property>
       <property name="Visible">true</property>
       <property name="Width">75</property>
@@ -91,21 +91,21 @@
       <property name="MaxWidth">0</property>
     </property>
     <property name="Item13" isnull="true" iskey="true">
-      <property name="Name">colCreatedBy</property>
-      <property name="Width">75</property>
-      <property name="MinWidth">20</property>
-      <property name="MaxWidth">0</property>
-    </property>
-    <property name="Item14" isnull="true" iskey="true">
-      <property name="Name">colCreatedUser</property>
+      <property name="Name">colStatus</property>
       <property name="VisibleIndex">6</property>
       <property name="Visible">true</property>
       <property name="Width">75</property>
       <property name="MinWidth">20</property>
       <property name="MaxWidth">0</property>
     </property>
+    <property name="Item14" isnull="true" iskey="true">
+      <property name="Name">colCreatedBy</property>
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
     <property name="Item15" isnull="true" iskey="true">
-      <property name="Name">colCreatedDate</property>
+      <property name="Name">colCreatedUser</property>
       <property name="VisibleIndex">7</property>
       <property name="Visible">true</property>
       <property name="Width">75</property>
@@ -113,22 +113,30 @@
       <property name="MaxWidth">0</property>
     </property>
     <property name="Item16" isnull="true" iskey="true">
-      <property name="Name">colUpdatedBy</property>
-      <property name="Width">75</property>
-      <property name="MinWidth">20</property>
-      <property name="MaxWidth">0</property>
-    </property>
-    <property name="Item17" isnull="true" iskey="true">
-      <property name="Name">colUpdatedUser</property>
+      <property name="Name">colCreatedDate</property>
       <property name="VisibleIndex">8</property>
       <property name="Visible">true</property>
       <property name="Width">75</property>
       <property name="MinWidth">20</property>
       <property name="MaxWidth">0</property>
     </property>
+    <property name="Item17" isnull="true" iskey="true">
+      <property name="Name">colUpdatedBy</property>
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
     <property name="Item18" isnull="true" iskey="true">
-      <property name="Name">colUpdatedDate</property>
+      <property name="Name">colUpdatedUser</property>
       <property name="VisibleIndex">9</property>
+      <property name="Visible">true</property>
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item19" isnull="true" iskey="true">
+      <property name="Name">colUpdatedDate</property>
+      <property name="VisibleIndex">10</property>
       <property name="Visible">true</property>
       <property name="Width">75</property>
       <property name="MinWidth">20</property>

@@ -48,19 +48,38 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Data.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.Images.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Office.v18.2.Core, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Pdf.v18.2.Core, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Printing.v18.2.Core, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.RichEdit.v18.2.Core, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.Utils.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraBars.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraEditors.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraGrid.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraNavBar.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
-    <Reference Include="DevExpress.XtraPrinting.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="DevExpress.XtraRichEdit.v18.2, Version=18.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="AmirCalendar">
+      <HintPath>obj\Debug\AmirCalendar.dll</HintPath>
+    </Reference>
+    <Reference Include="CMISControls">
+      <HintPath>..\..\..\WinProjectFinal\ODCC_WinApplication-master\CMISControls\bin\Debug\CMISControls.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v18.2.Core, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v18.2, Version=18.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Stimulsoft.Base, Version=2019.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Stimulsoft.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Controls, Version=2019.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Stimulsoft.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Controls.Win, Version=2019.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Stimulsoft.Controls.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report, Version=2019.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Stimulsoft.Report.dll</HintPath>
+    </Reference>
+    <Reference Include="Stimulsoft.Report.Win, Version=2019.2.3.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Stimulsoft.Report.Win.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -115,12 +134,201 @@
       <DependentUpon>UserPermissionForm.cs</DependentUpon>
     </Compile>
     <Compile Include="CMISCommonAcls\NotifyACL.cs" />
-    <Compile Include="CMISDataSet.Designer.cs">
+    <Compile Include="CMISElectrical\Bundle.cs" />
+    <Compile Include="CMISElectrical\ElectricalResource.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>CMISDataSet.xsd</DependentUpon>
+      <DependentUpon>ElectricalResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="CMISElectrical\Main\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISElectrical\Main\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISElectrical\Other\HomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISElectrical\Other\HomeForm.Designer.cs">
+      <DependentUpon>HomeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISGatePass\Bundle.cs" />
+    <Compile Include="CMISGatePass\Infrastructure\Const\AppConst.cs" />
+    <Compile Include="CMISGatePass\Infrastructure\Const\Errors.cs" />
+    <Compile Include="CMISGatePass\Infrastructure\Contract\CMISACL.cs" />
+    <Compile Include="CMISGatePass\Infrastructure\Data\GatePassDAL.cs" />
+    <Compile Include="CMISGatePass\Infrastructure\Enum\RequestType.cs" />
+    <Compile Include="CMISGatePass\Infrastructure\Helper\Counter.cs" />
+    <Compile Include="CMISGatePass\Infrastructure\Model\ConfigModel.cs" />
+    <Compile Include="CMISGatePass\Infrastructure\ViewModel\CityViewModel.cs" />
+    <Compile Include="CMISGatePass\Infrastructure\ViewModel\CompanyUnitsLookupLViewModel.cs" />
+    <Compile Include="CMISGatePass\Infrastructure\ViewModel\EmployeeCompanyLooukupViewModel.cs" />
+    <Compile Include="CMISGatePass\Infrastructure\ViewModel\EmployeeLookupViewModel.cs" />
+    <Compile Include="CMISGatePass\Infrastructure\ViewModel\FaceIdPlaceViewModel.cs" />
+    <Compile Include="CMISGatePass\Infrastructure\ViewModel\GatePassDetailViewModel.cs" />
+    <Compile Include="CMISGatePass\Infrastructure\ViewModel\GatePassItemTVPViewModel.cs" />
+    <Compile Include="CMISGatePass\Infrastructure\ViewModel\GatePassTypeLookupViewModel.cs" />
+    <Compile Include="CMISGatePass\Infrastructure\ViewModel\JobPositionlookupViewModel.cs" />
+    <Compile Include="CMISGatePass\Infrastructure\ViewModel\LookupIdNameViewModel.cs" />
+    <Compile Include="CMISGatePass\Infrastructure\ViewModel\NewRequestViewModel.cs" />
+    <Compile Include="CMISGatePass\Infrastructure\ViewModel\SettingsViewModel.cs" />
+    <Compile Include="CMISGatePass\Main\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISGatePass\Main\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\AttachmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\AttachmentForm.Designer.cs">
+      <DependentUpon>AttachmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\CityForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\CityForm.Designer.cs">
+      <DependentUpon>CityForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\CountryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\CountryForm.Designer.cs">
+      <DependentUpon>CountryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\frmChangeCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\frmChangeCompany.Designer.cs">
+      <DependentUpon>frmChangeCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\GatePassChangeDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\GatePassChangeDataForm.Designer.cs">
+      <DependentUpon>GatePassChangeDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\GatePassIssuerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\GatePassIssuerForm.Designer.cs">
+      <DependentUpon>GatePassIssuerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\HSEForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\HSEForm.Designer.cs">
+      <DependentUpon>HSEForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\NewSaticfactionLetter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\NewSaticfactionLetter.Designer.cs">
+      <DependentUpon>NewSaticfactionLetter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\PersonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\PersonForm.Designer.cs">
+      <DependentUpon>PersonForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\FaceIdentificationPlaceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\FaceIdentificationPlaceForm.Designer.cs">
+      <DependentUpon>FaceIdentificationPlaceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\GatePassTypeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\GatePassTypeForm.Designer.cs">
+      <DependentUpon>GatePassTypeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\HomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\HomeForm.Designer.cs">
+      <DependentUpon>HomeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\JobPosition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\JobPosition.Designer.cs">
+      <DependentUpon>JobPosition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\NewRequestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\NewRequestForm.Designer.cs">
+      <DependentUpon>NewRequestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\ProvinceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\ProvinceForm.Designer.cs">
+      <DependentUpon>ProvinceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\ReportCompanyWiseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\ReportCompanyWiseForm.Designer.cs">
+      <DependentUpon>ReportCompanyWiseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\RequestItemsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\RequestItemsForm.Designer.cs">
+      <DependentUpon>RequestItemsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\RequestListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\RequestListForm.Designer.cs">
+      <DependentUpon>RequestListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\ReservePersonCodeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\ReservePersonCodeForm.Designer.cs">
+      <DependentUpon>ReservePersonCodeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\ReservePersonCodePreviewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\ReservePersonCodePreviewForm.Designer.cs">
+      <DependentUpon>ReservePersonCodePreviewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\SatticfactionLetterList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\SatticfactionLetterList.Designer.cs">
+      <DependentUpon>SatticfactionLetterList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\SettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\SettingsForm.Designer.cs">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\SignHistoryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\SignHistoryForm.Designer.cs">
+      <DependentUpon>SignHistoryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\TEST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CMISGatePass\Other\TEST.Designer.cs">
+      <DependentUpon>TEST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GatePassResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GatePassResources.resx</DependentUpon>
     </Compile>
     <Compile Include="JobReport\Bundle.cs" />
+    <Compile Include="JobReport\Culture.cs" />
     <Compile Include="JobReport\Infrastructure\Const\JRConst.cs" />
     <Compile Include="JobReport\Infrastructure\Contract\CMISACL.cs" />
     <Compile Include="JobReport\Infrastructure\ViewModel\JobReportViewModel.cs" />
@@ -174,6 +382,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WInAPP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WInAPP.Designer.cs">
+      <DependentUpon>WInAPP.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="CMISAclManager\Main\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -188,6 +402,95 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CMISAclManager\Other\UserPermissionForm.resx">
       <DependentUpon>UserPermissionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISElectrical\ElectricalResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ElectricalResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISElectrical\Main\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISElectrical\Other\HomeForm.resx">
+      <DependentUpon>HomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISGatePass\Other\AttachmentForm.resx">
+      <DependentUpon>AttachmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISGatePass\Other\frmChangeCompany.resx">
+      <DependentUpon>frmChangeCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISGatePass\Other\GatePassChangeDataForm.resx">
+      <DependentUpon>GatePassChangeDataForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISGatePass\Other\GatePassIssuerForm.resx">
+      <DependentUpon>GatePassIssuerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISGatePass\Other\HSEForm.resx">
+      <DependentUpon>HSEForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISGatePass\Other\NewRequestForm.resx">
+      <DependentUpon>NewRequestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISGatePass\Other\NewSaticfactionLetter.resx">
+      <DependentUpon>NewSaticfactionLetter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISGatePass\Other\ReportCompanyWiseForm.resx">
+      <DependentUpon>ReportCompanyWiseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISGatePass\Other\RequestItemsForm.resx">
+      <DependentUpon>RequestItemsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISGatePass\Other\RequestListForm.resx">
+      <DependentUpon>RequestListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISGatePass\Other\ReservePersonCodeForm.resx">
+      <DependentUpon>ReservePersonCodeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISGatePass\Other\ReservePersonCodePreviewForm.resx">
+      <DependentUpon>ReservePersonCodePreviewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISGatePass\Other\SatticfactionLetterList.resx">
+      <DependentUpon>SatticfactionLetterList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISGatePass\Other\SettingsForm.resx">
+      <DependentUpon>SettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISGatePass\Other\SignHistoryForm.resx">
+      <DependentUpon>SignHistoryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISGatePass\Other\TEST.resx">
+      <DependentUpon>TEST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GatePassResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>GatePassResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISGatePass\Main\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISGatePass\Other\CityForm.resx">
+      <DependentUpon>CityForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISGatePass\Other\CountryForm.resx">
+      <DependentUpon>CountryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISGatePass\Other\PersonForm.resx">
+      <DependentUpon>PersonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISGatePass\Other\FaceIdentificationPlaceForm.resx">
+      <DependentUpon>FaceIdentificationPlaceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISGatePass\Other\GatePassTypeForm.resx">
+      <DependentUpon>GatePassTypeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISGatePass\Other\HomeForm.resx">
+      <DependentUpon>HomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISGatePass\Other\JobPosition.resx">
+      <DependentUpon>JobPosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMISGatePass\Other\ProvinceForm.resx">
+      <DependentUpon>ProvinceForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="JobReport\Main\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -224,17 +527,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="CMISDataSet.xsc">
-      <DependentUpon>CMISDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="CMISDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>CMISDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="CMISDataSet.xss">
-      <DependentUpon>CMISDataSet.xsd</DependentUpon>
-    </None>
+    <EmbeddedResource Include="WInAPP.resx">
+      <DependentUpon>WInAPP.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -259,12 +554,20 @@
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </ProjectReference>
     <ProjectReference Include="..\CMIS.UIEngin\CMISUIEngin.csproj">
-      <Project>{db2d15f6-e630-4819-8084-741da62ac822}</Project>
+      <Project>{DB2D15F6-E630-4819-8084-741DA62AC822}</Project>
       <Name>CMISUIEngin</Name>
     </ProjectReference>
     <ProjectReference Include="..\CMIS.Utilities\CMISUtility.csproj">
       <Project>{9b1eeee7-6678-44d9-97d8-1e56c0aa3d6e}</Project>
       <Name>CMISUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CMISDocumentUtils\CMISDocumentUtils.csproj">
+      <Project>{1ce2d7d3-4cb1-4130-a8a2-2686f19c049c}</Project>
+      <Name>CMISDocumentUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CMISProjectReport\CMISProjectReport.csproj">
+      <Project>{56905a54-6b86-4f44-98ed-b246b06a4a46}</Project>
+      <Name>CMISProjectReport</Name>
     </ProjectReference>
     <ProjectReference Include="..\CMISSecurity\CMISSecurity.csproj">
       <Project>{60fecbb9-5c03-41bd-bf13-72595b4139a0}</Project>
@@ -273,6 +576,18 @@
     <ProjectReference Include="..\CommonClass\CommonClass.csproj">
       <Project>{683e2c33-09a5-4614-ada0-ecb7430fdf0c}</Project>
       <Name>CommonClass</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Connection\Connection.csproj">
+      <Project>{DC0BC9A9-8D18-4D6E-9C18-9CC8FFF7DCB6}</Project>
+      <Name>Connection</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Security\Security.csproj">
+      <Project>{1235B89A-AB19-4354-B376-9A2ADE6095E1}</Project>
+      <Name>Security</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UserVirtual\UserVirtual.csproj">
+      <Project>{f479e8b1-50f3-40f1-9a57-6d33d78d9add}</Project>
+      <Name>UserVirtual</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -300,6 +615,189 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\expandcollapse_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel_24x24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_city_buildings_30px_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_country_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_facial_recognition_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GatePass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6982409_preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-computer-icons-identity-document-identity-theft-student-identity-card-cabin-hand-people-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GatePasstype.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GatePassType 48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CardId.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewCardIdDesign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\159-1590053_forefinger-up-finger-touch-idea-hand-click-hand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_identification_documents_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_checkmark_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_collaborator_male_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_worker_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_female_worker_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_delete_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_engineer_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BarBatnNewEmployee_ImageOptions_Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BarBatnNewEmployee.ImageOptions.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BarBatnNewEmployee.ImageOptions.LargeImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BarBtnDeleteEmployee.ImageOptions.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BarBtnDeleteEmployee.ImageOptions.LargeImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BarBtnEditEmployee.ImageOptions.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BarBtnEditEmployee.ImageOptions.LargeImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BarBtnSaveEmployee.ImageOptions.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BarBtnSaveEmployee.ImageOptions.LargeImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BarBtnSendPost.ImageOptions.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnAddAttachment.ImageOptions.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnBrowse.ImageOptions.Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\POST.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SignHistory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_checkmark_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_delete_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EpnMhl1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a4b33886128681.5d909dad47ded.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4d845686128681.5d909dad4ddd3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addfile_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addfile_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaveAndPost.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HandsDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash_32x322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkbox2_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkbuttons_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_16x161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zipcode_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adateoccurring_32x32.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

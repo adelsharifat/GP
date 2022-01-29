@@ -18,7 +18,7 @@ namespace ODCC_WinApplication
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new JobReport.Main.MainForm());
+            Application.Run(new WInAPP());
         }
     }
 }

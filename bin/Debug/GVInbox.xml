@@ -61,13 +61,13 @@
       <property name="MaxWidth">0</property>
     </property>
     <property name="Item9" isnull="true" iskey="true">
-      <property name="Name">colNextSignRole</property>
+      <property name="Name">colDocumentOwnersRole</property>
       <property name="Width">75</property>
       <property name="MinWidth">20</property>
       <property name="MaxWidth">0</property>
     </property>
     <property name="Item10" isnull="true" iskey="true">
-      <property name="Name">colNextRole</property>
+      <property name="Name">colDocumentOwnersRoleName</property>
       <property name="VisibleIndex">3</property>
       <property name="Visible">true</property>
       <property name="Width">75</property>

@@ -5,28 +5,40 @@
     <property name="ShowAutoFilterRow">true</property>
   </property>
   <property name="ActiveFilterEnabled">true</property>
-  <property name="Columns" iskey="true" value="3">
+  <property name="Columns" iskey="true" value="5">
     <property name="Item1" isnull="true" iskey="true">
-      <property name="Name">ColName</property>
-      <property name="VisibleIndex">0</property>
-      <property name="Visible">true</property>
-      <property name="Width">100</property>
+      <property name="Name">colId</property>
+      <property name="Width">75</property>
       <property name="MinWidth">20</property>
       <property name="MaxWidth">0</property>
     </property>
     <property name="Item2" isnull="true" iskey="true">
-      <property name="Name">ColDescription</property>
-      <property name="VisibleIndex">1</property>
-      <property name="Visible">true</property>
-      <property name="Width">105</property>
+      <property name="Name">colProjectId</property>
+      <property name="Width">75</property>
       <property name="MinWidth">20</property>
       <property name="MaxWidth">0</property>
     </property>
     <property name="Item3" isnull="true" iskey="true">
-      <property name="Name">ColPermission</property>
+      <property name="Name">colName</property>
+      <property name="VisibleIndex">0</property>
+      <property name="Visible">true</property>
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item4" isnull="true" iskey="true">
+      <property name="Name">colDescription</property>
+      <property name="VisibleIndex">1</property>
+      <property name="Visible">true</property>
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item5" isnull="true" iskey="true">
+      <property name="Name">colPermision</property>
       <property name="VisibleIndex">2</property>
       <property name="Visible">true</property>
-      <property name="Width">1657</property>
+      <property name="Width">75</property>
       <property name="MinWidth">20</property>
       <property name="MaxWidth">0</property>
     </property>

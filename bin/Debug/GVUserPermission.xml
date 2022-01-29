@@ -5,9 +5,9 @@
     <property name="ShowAutoFilterRow">true</property>
   </property>
   <property name="ActiveFilterEnabled">true</property>
-  <property name="Columns" iskey="true" value="8">
+  <property name="Columns" iskey="true" value="9">
     <property name="Item1" isnull="true" iskey="true">
-      <property name="Name">Id</property>
+      <property name="Name">colId</property>
       <property name="VisibleIndex">0</property>
       <property name="Visible">true</property>
       <property name="Width">75</property>
@@ -15,7 +15,7 @@
       <property name="MaxWidth">0</property>
     </property>
     <property name="Item2" isnull="true" iskey="true">
-      <property name="Name">FirstName</property>
+      <property name="Name">colCompany</property>
       <property name="VisibleIndex">1</property>
       <property name="Visible">true</property>
       <property name="Width">75</property>
@@ -23,7 +23,7 @@
       <property name="MaxWidth">0</property>
     </property>
     <property name="Item3" isnull="true" iskey="true">
-      <property name="Name">LastName</property>
+      <property name="Name">colUserName</property>
       <property name="VisibleIndex">2</property>
       <property name="Visible">true</property>
       <property name="Width">75</property>
@@ -31,7 +31,7 @@
       <property name="MaxWidth">0</property>
     </property>
     <property name="Item4" isnull="true" iskey="true">
-      <property name="Name">FullName</property>
+      <property name="Name">colFirstName</property>
       <property name="VisibleIndex">3</property>
       <property name="Visible">true</property>
       <property name="Width">75</property>
@@ -39,7 +39,7 @@
       <property name="MaxWidth">0</property>
     </property>
     <property name="Item5" isnull="true" iskey="true">
-      <property name="Name">Company</property>
+      <property name="Name">colLastName</property>
       <property name="VisibleIndex">4</property>
       <property name="Visible">true</property>
       <property name="Width">75</property>
@@ -47,7 +47,7 @@
       <property name="MaxWidth">0</property>
     </property>
     <property name="Item6" isnull="true" iskey="true">
-      <property name="Name">JobTitle</property>
+      <property name="Name">colFullName</property>
       <property name="VisibleIndex">5</property>
       <property name="Visible">true</property>
       <property name="Width">75</property>
@@ -55,7 +55,7 @@
       <property name="MaxWidth">0</property>
     </property>
     <property name="Item7" isnull="true" iskey="true">
-      <property name="Name">ProfileImage</property>
+      <property name="Name">colJobTitle</property>
       <property name="VisibleIndex">6</property>
       <property name="Visible">true</property>
       <property name="Width">75</property>
@@ -63,8 +63,16 @@
       <property name="MaxWidth">0</property>
     </property>
     <property name="Item8" isnull="true" iskey="true">
-      <property name="Name">Permission</property>
+      <property name="Name">colProfileImage</property>
       <property name="VisibleIndex">7</property>
+      <property name="Visible">true</property>
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item9" isnull="true" iskey="true">
+      <property name="Name">colPermision</property>
+      <property name="VisibleIndex">8</property>
       <property name="Visible">true</property>
       <property name="Width">75</property>
       <property name="MinWidth">20</property>

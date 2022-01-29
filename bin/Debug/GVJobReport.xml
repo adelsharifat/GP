@@ -5,7 +5,7 @@
     <property name="ShowAutoFilterRow">true</property>
   </property>
   <property name="ActiveFilterEnabled">true</property>
-  <property name="Columns" iskey="true" value="13">
+  <property name="Columns" iskey="true" value="14">
     <property name="Item1" isnull="true" iskey="true">
       <property name="Name">colId</property>
       <property name="Width">75</property>
@@ -14,7 +14,7 @@
     </property>
     <property name="Item2" isnull="true" iskey="true">
       <property name="Name">colReportNumber</property>
-      <property name="VisibleIndex">1</property>
+      <property name="VisibleIndex">0</property>
       <property name="Visible">true</property>
       <property name="Width">75</property>
       <property name="MinWidth">20</property>
@@ -40,7 +40,7 @@
     </property>
     <property name="Item6" isnull="true" iskey="true">
       <property name="Name">colDiscipline</property>
-      <property name="VisibleIndex">2</property>
+      <property name="VisibleIndex">1</property>
       <property name="Visible">true</property>
       <property name="Width">75</property>
       <property name="MinWidth">20</property>
@@ -54,7 +54,7 @@
     </property>
     <property name="Item8" isnull="true" iskey="true">
       <property name="Name">colCompany</property>
-      <property name="VisibleIndex">3</property>
+      <property name="VisibleIndex">2</property>
       <property name="Visible">true</property>
       <property name="Width">75</property>
       <property name="MinWidth">20</property>
@@ -62,7 +62,7 @@
     </property>
     <property name="Item9" isnull="true" iskey="true">
       <property name="Name">colReportDate</property>
-      <property name="VisibleIndex">4</property>
+      <property name="VisibleIndex">3</property>
       <property name="Visible">true</property>
       <property name="Width">75</property>
       <property name="MinWidth">20</property>
@@ -70,19 +70,27 @@
     </property>
     <property name="Item10" isnull="true" iskey="true">
       <property name="Name">colEmail</property>
-      <property name="VisibleIndex">5</property>
+      <property name="VisibleIndex">4</property>
       <property name="Visible">true</property>
       <property name="Width">75</property>
       <property name="MinWidth">20</property>
       <property name="MaxWidth">0</property>
     </property>
     <property name="Item11" isnull="true" iskey="true">
-      <property name="Name">colCreatedBy</property>
+      <property name="Name">colStatus</property>
+      <property name="VisibleIndex">5</property>
+      <property name="Visible">true</property>
       <property name="Width">75</property>
       <property name="MinWidth">20</property>
       <property name="MaxWidth">0</property>
     </property>
     <property name="Item12" isnull="true" iskey="true">
+      <property name="Name">colCreatedBy</property>
+      <property name="Width">75</property>
+      <property name="MinWidth">20</property>
+      <property name="MaxWidth">0</property>
+    </property>
+    <property name="Item13" isnull="true" iskey="true">
       <property name="Name">colCreatedUser</property>
       <property name="VisibleIndex">6</property>
       <property name="Visible">true</property>
@@ -90,7 +98,7 @@
       <property name="MinWidth">20</property>
       <property name="MaxWidth">0</property>
     </property>
-    <property name="Item13" isnull="true" iskey="true">
+    <property name="Item14" isnull="true" iskey="true">
       <property name="Name">colCreatedDate</property>
       <property name="VisibleIndex">7</property>
       <property name="Visible">true</property>
